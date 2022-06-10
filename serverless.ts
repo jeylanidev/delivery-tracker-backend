@@ -3,7 +3,7 @@ import type { AWS } from '@serverless/typescript';
 import newMessageAdded from '@controllers/http/newMessageAdded';
 
 const serverlessConfiguration: AWS = {
-  service: 'jeylanis-footy-functions',
+  service: 'delivery-tracer-backend',
   frameworkVersion: '2',
   custom: {},
   plugins: ['serverless-webpack', 'serverless-offline', 'serverless-dotenv-plugin'],

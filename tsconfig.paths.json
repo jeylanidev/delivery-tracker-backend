@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@use-cases/*": ["src/use-cases/*"],
+      "@services/*": ["src/services/*"],
+      "@models/*": ["src/models/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@libs/*": ["src/libs/*"]
+    }
+  }
+}
